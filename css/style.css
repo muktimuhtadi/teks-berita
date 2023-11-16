@@ -130,6 +130,24 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
+/* CP */
+.cp img {
+  display: block;
+  margin: auto;
+  padding-top: 0;
+  width: 1000px;
+}
+
+.cp h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cp p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
 /* Menu */
 .menu .row {
   display: flex;
@@ -182,16 +200,26 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
+/* Lainnya */
+.lain a {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
 /* About Section */
 .about,
 .menu,
-.contact {
+.contact,
+.cp,
+.lain {
   padding: 8rem 7% 1.4rem;
 }
 
 .about h2,
 .menu h2,
-.contact h2 {
+.contact h2,
+.cp h2,
+.lain h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -346,6 +374,9 @@ footer .credit a {
   }
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
+  }
+  .cp img {
+    width: 335px;
   }
   .menu .row .menu-card img {
     width: 330px;
